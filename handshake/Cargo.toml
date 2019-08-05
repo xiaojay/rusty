@@ -1,0 +1,11 @@
+[package]
+name = "handshake"
+version = "0.1.0"
+authors = ["xiaojay <xiaojay@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+grin_p2p = { git = "https://github.com/mimblewimble/grin", tag = "v2.0.0" }
+grin_core = { git = "https://github.com/mimblewimble/grin", tag = "v2.0.0" }
+grin_util = { git = "https://github.com/mimblewimble/grin", tag = "v2.0.0" }
+grin_chain = { git = "https://github.com/mimblewimble/grin", tag = "v2.0.0" }
